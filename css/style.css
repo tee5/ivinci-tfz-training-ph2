@@ -1,0 +1,28 @@
+
+html, body {
+    width: 100%;
+    height:100%;
+    padding: 0;
+    margin: 0;
+}
+
+.templates {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+div.container {
+    margin: 20px auto;
+    width:500px;
+    height:100%;
+    background-color: #ddd;
+}
+
+div.group {
+    width:500px;
+    background-color: #fdd;
+    margin-bottom: 10px;
+}

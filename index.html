@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-1.10.1.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+
+<div class="templates">
+    <div class="group">
+        <label>グループ名<input type="text"></label>
+        <div class="users"></div>
+        <button class="addUserButton" onclick="onclickAddUserButton(this)">＋</button>
+    </div>
+
+    <div class="user">
+        <label>ユーザ名<input type="text" class="userNameText"><button class="removeUserButton" onclick="onclickRemoveUserButton();">ｘ</button></label>
+    </div>
+</div>
+
+<div class="container">
+    <div class="groups"></div>
+    <button class="addGroupButton" onclick="onclickAddGroupButton(this);">＋</button>
+</div>
+
+</body>
+</html>
